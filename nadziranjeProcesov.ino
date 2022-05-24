@@ -1,8 +1,3 @@
-/*Uroš Urbas & Blaž Močan
- * Gmail account: nadziranjeslike@gmail.com
- * password:      senzorjiinaktuatorji
-*/
-
 #include <SoftwareSerial.h>
 #include <SD.h>
 File dataFile;
