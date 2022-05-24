@@ -225,7 +225,7 @@ void sendMMS()
   delay(1000);
   mySerial.println(F("AT+CMMSRECP=\"nadziranjeslike@gmail.com\"\r"));
   /*delay(1000);
-  mySerial.println("AT+CMMSBCC=\"luka.selak@fs.uni-lj.si\"\r");     //Skrivni prejemnik
+  mySerial.println("AT+CMMSBCC=\""\r");     //Skrivni prejemnik
   delay(1000);*/
   if(mySerial.available())
   {
